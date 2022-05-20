@@ -1,0 +1,8 @@
+.lang-link {
+    color: white;
+    align-self: center;
+}
+.lang-link:last-child {
+    text-decoration: none;
+    margin-left: 18px;
+}
