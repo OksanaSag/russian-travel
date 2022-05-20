@@ -4,4 +4,14 @@
 @import url(../blocks/header/__lang-link/lang-link.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/logo.css);
-@import url
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__caption/caption.css);
+@import url(../blocks/lead/__image/image.css);
+@import url(../blocks/lead/__subtitle/subtitle.css);
+@import url(../blocks/lead/__title/title.css);
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
