@@ -1,3 +1,10 @@
 .photo-grid__item {
    max-width: 100%;
+   transition-duration: .5s;
+}
+.photo-grid:hover .photo-grid__item {
+   transition: box-shadow 0.5s ease;
+}
+.photo-grid__item:hover {
+   box-shadow: 0 0 15px #909093;
 }

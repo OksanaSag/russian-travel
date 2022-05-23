@@ -2,4 +2,19 @@
   grid-column: 1/1;
   grid-row: 1/1;
   margin: 0;
+  font-size: 72px;
+  line-height: 1.05;
+}
+@media screen and (max-width: 320px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+  } 
+}
+@media screen and (max-width: 768px) {
+  .place__title  {
+      font-size: calc(32px + 10  * ((100vw - 320px) / 768));
+  }
 }

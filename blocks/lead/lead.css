@@ -1,6 +1,20 @@
 .lead {
     margin: 0 148px;
     padding-top: 56px;
-    display: inline-block;
     font-size: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        
+        margin: 0 48px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .lead {
+        margin: 0; 
+        
+}
 }

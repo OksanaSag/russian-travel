@@ -1,4 +1,11 @@
 .website {
     grid-column: 2/2;
     grid-row: 1/2;
+    margin: 0;
+}
+@media screen and (max-width: 320px) {
+    .website {
+      margin-bottom: 32px;
+      margin-left: 16px;
+    } 
 }
