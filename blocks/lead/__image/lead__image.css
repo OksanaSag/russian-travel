@@ -2,6 +2,7 @@
     max-width: 100%;
     margin: 0;
     transition: transform 3s ease-in-out;
+    box-sizing: border-box;
 }
 .lead:hover .lead__image  {
     transform: scale(1.05);    
