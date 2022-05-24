@@ -3,6 +3,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
@@ -11,7 +12,7 @@
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__text/intro__text.css);
-@import url(../blocks/intro/__list/_position/intro__list_position.css);
+@import url(../blocks/intro/__list-item/intro__list-item.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -20,7 +21,7 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__title/place__title.css);
-@import url(../blocks/website/website.css);
+@import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__paragraf/place__paragraf.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
@@ -28,8 +29,9 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
-@import url(../blocks/website/__link/website__link.css);
-@import url(../blocks/website/__url-heading/website__url-heading.css);
+@import url(../blocks/footer/__link-menu/footer__link-menu.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/footer/__link/_position/footer__link_position.css);
 @import url(../blocks/header/__lang/header__lang.css);
-@import url(../blocks/cover/qwe.css)
+@import url(../blocks/intro/__list-item-number/intro__list-item-number.css);

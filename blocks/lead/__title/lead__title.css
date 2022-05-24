@@ -6,9 +6,10 @@
     max-width: 720px;
     margin: 0 auto;  
 }
+
 @media screen and (max-width: 768px) {
     .lead__title  {
-        font-size: calc(40px + 56  * ((100vw - 320px) / 768));
+       
     }
  }
  @media screen and (max-width: 320px) {
