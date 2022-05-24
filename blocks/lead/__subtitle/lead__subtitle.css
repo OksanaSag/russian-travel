@@ -6,6 +6,11 @@
     max-width: 640px;
     margin: 32px auto 64px;
 }
+@media screen and (max-width: 1024px) {
+    .lead__subtitle  {
+        margin-bottom: 56px;
+    }
+ }
  @media screen and (max-width: 768px) {
     .lead__subtitle  {
         font-size: calc(20px + 10  * ((100vw - 320px) / 768));
@@ -16,5 +21,6 @@
         font-size: 16px;
         line-height: 20px;
         font-size: calc(20px + 10  * ((100vw - 320px) / 768));
+        margin-bottom: 40px;
     }
  }

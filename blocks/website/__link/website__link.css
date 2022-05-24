@@ -1,6 +1,8 @@
 .website__link {
     color: white;
     transition-duration: .5s;
+    font-size: 18px;
+    line-height: 1.2;
 }
 .website__link:hover {
     opacity: .7;

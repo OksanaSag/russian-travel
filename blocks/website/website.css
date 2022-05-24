@@ -1,4 +1,7 @@
 .website {
+    display: flex;
+    flex-direction: column;
+    align-self:flex-end;
     grid-column: 2/2;
     grid-row: 1/2;
     margin: 0;

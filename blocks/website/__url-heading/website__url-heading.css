@@ -1,5 +1,8 @@
 .website__url-heading {
-    color: rgb(255, 255, 255, .5);
+    color: #AAAAAA;
     font-size: 12px;
     line-height: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
 }

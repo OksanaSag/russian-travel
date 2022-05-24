@@ -2,9 +2,10 @@
     margin: 0;
     font-size: 18px;
     line-height: 1.63;
+    margin-bottom: 26px;
 }
 .place__paragraf:last-of-type {
-    margin-top: 26px;
+    margin-bottom: 0;
 }
 @media screen and (max-width: 320px) {
     .place__paragraf {

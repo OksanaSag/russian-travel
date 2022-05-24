@@ -3,22 +3,17 @@
     font-size: 72px;
     line-height: 1.05;
     font-weight: bold;
-    margin-top: 245px;
+    margin-top: auto;
     max-width: 560px;
     align-self: center;
-
-}
-@media screen and (max-width: 1024px)  {
-    .cover__title {
-        margin-top: 115px;
-    }
+    position: relative;
+    z-index: 3;
+   
 }
 @media screen and (max-width: 320px)  {
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-        margin: 33px 16px 32px;
-        hyphens: auto;
     }
 }
 @media screen and (max-width: 768px) {
