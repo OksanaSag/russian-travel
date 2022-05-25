@@ -14,8 +14,8 @@
         line-height: 1.09;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .cover__title  {
-        
+        font-size: calc(32px  + 30 * (100vw/767));
     }
   }

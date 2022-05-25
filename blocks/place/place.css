@@ -1,9 +1,12 @@
 .place {
     display: grid;
-    grid-template-columns: 46.7% 49.18%;
+    grid-template-columns: 460px 1fr;
+    grid-template-rows: auto auto;
     grid-column-gap: 40px;
     grid-row-gap: 48px;
     margin-bottom: 80px;
+    width: 100%;
+    
 }
 .place:last-child {
     margin-bottom: 0;
@@ -12,7 +15,8 @@
     .place {
         grid-column-gap: 32px;
         margin-bottom: 80px;
-        grid-template-columns: 47.4% 49.13%;
+        grid-template-columns: 440px 1fr;
+        grid-template-rows: auto auto;
     } 
 }
 @media screen and (max-width: 768px) {
@@ -20,7 +24,9 @@
         grid-row-gap: 48px;
         grid-column-gap: 28px;
         margin-bottom: 73px;
-        grid-template-columns: 47.22% 48.88%;
+        grid-template-columns: 340px 1fr;
+       
+        grid-template-rows: auto auto;
     } 
 }
 @media screen and (max-width: 320px) {
