@@ -1,15 +1,8 @@
 .header__lang-link {
     color: white;
-    align-self: center;
     text-decoration: none;
     transition-duration: .5s;
-    list-style-type: none;
-    margin-right: 18px;
-    font-size: 24px;
-    line-height: 1.5;
-}
-.header__lang-link:last-child {
-    margin-right: 0;
+   
 }
 .header__lang-link:hover {
     opacity: .5;
