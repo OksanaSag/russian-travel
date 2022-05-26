@@ -1,27 +1,33 @@
 .place__paragraf {
     margin: 0;
     font-size: 18px;
-    line-height: 1.627;
+    line-height: 1.61;
     margin-bottom: 26px;
+    max-width: 100%;
 }
 .place__paragraf:last-of-type {
     margin-bottom: 0;
 }
-
 @media screen and (max-width: 768px) {
   .place__paragraf {
     font-size: 16px;
     margin-bottom: 25px;
     line-height: 1.623;
+
+  } 
+}@media screen and (max-width: 631px) {
+  .place__paragraf {
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 16px;
+    line-height: 1.614;
   } 
 }
 @media screen and (max-width: 320px) {
     .place__paragraf {
       margin-left: 16px;
       margin-right: 16px;
-      
-      
       font-size: 16px;
-    line-height: 1.614;
+      line-height: 1.614;
     } 
-  }
+}

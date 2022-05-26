@@ -4,6 +4,11 @@
     grid-row: 2/2;
     margin: 0;  
 }
+@media screen and (max-width: 631px) {
+  .place__image {
+    margin-bottom: 32px;
+  } 
+}
 @media screen and (max-width: 320px) {
     .place__image {
       margin-bottom: 32px;
